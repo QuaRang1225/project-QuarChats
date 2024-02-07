@@ -26,6 +26,11 @@
 		818639072B70A1A2002E5350 /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818639062B70A1A2002E5350 /* Presenter.swift */; };
 		818639092B70A21F002E5350 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818639082B70A21F002E5350 /* Router.swift */; };
 		8186390B2B70A280002E5350 /* Builder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8186390A2B70A280002E5350 /* Builder.swift */; };
+		81D5E44A2B737501008E0204 /* Landing.docc in Sources */ = {isa = PBXBuildFile; fileRef = 81D5E4492B737501008E0204 /* Landing.docc */; };
+		81D5E4502B737501008E0204 /* Landing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81D5E4462B737501008E0204 /* Landing.framework */; };
+		81D5E4582B737502008E0204 /* Landing.h in Headers */ = {isa = PBXBuildFile; fileRef = 81D5E4482B737501008E0204 /* Landing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81D5E45B2B737502008E0204 /* Landing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81D5E4462B737501008E0204 /* Landing.framework */; };
+		81D5E45C2B737502008E0204 /* Landing.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 81D5E4462B737501008E0204 /* Landing.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +69,27 @@
 			remoteGlobalIDString = 818638E52B709D08002E5350;
 			remoteInfo = Window;
 		};
+		81D5E4512B737501008E0204 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 818638A62B709C50002E5350 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81D5E4452B737501008E0204;
+			remoteInfo = Landing;
+		};
+		81D5E4532B737502008E0204 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 818638A62B709C50002E5350 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 818638AD2B709C50002E5350;
+			remoteInfo = QuarChats;
+		};
+		81D5E4592B737502008E0204 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 818638A62B709C50002E5350 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81D5E4452B737501008E0204;
+			remoteInfo = Landing;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -73,6 +99,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				81D5E45C2B737502008E0204 /* Landing.framework in Embed Frameworks */,
 				818638FC2B709D08002E5350 /* Window.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -103,6 +130,10 @@
 		818639062B70A1A2002E5350 /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
 		818639082B70A21F002E5350 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 		8186390A2B70A280002E5350 /* Builder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Builder.swift; sourceTree = "<group>"; };
+		81D5E4462B737501008E0204 /* Landing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Landing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81D5E4482B737501008E0204 /* Landing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Landing.h; sourceTree = "<group>"; };
+		81D5E4492B737501008E0204 /* Landing.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Landing.docc; sourceTree = "<group>"; };
+		81D5E44F2B737501008E0204 /* LandingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LandingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +141,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81D5E45B2B737502008E0204 /* Landing.framework in Frameworks */,
 				818638FB2B709D08002E5350 /* Window.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -143,6 +175,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		81D5E4432B737501008E0204 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81D5E44C2B737501008E0204 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81D5E4502B737501008E0204 /* Landing.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -164,6 +211,8 @@
 				818638CE2B709C52002E5350 /* QuarChatsUITests.xctest */,
 				818638E62B709D08002E5350 /* Window.framework */,
 				818638EF2B709D08002E5350 /* WindowTests.xctest */,
+				81D5E4462B737501008E0204 /* Landing.framework */,
+				81D5E44F2B737501008E0204 /* LandingTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -171,8 +220,8 @@
 		818638B02B709C50002E5350 /* QuarChats */ = {
 			isa = PBXGroup;
 			children = (
+				81D5E4402B7374BC008E0204 /* Modules */,
 				818638F52B709D08002E5350 /* WindowTests */,
-				818638E72B709D08002E5350 /* Window */,
 				818638B12B709C50002E5350 /* AppDelegate.swift */,
 				818638B32B709C50002E5350 /* SceneDelegate.swift */,
 				818638B52B709C50002E5350 /* ViewController.swift */,
@@ -222,6 +271,24 @@
 			path = WindowTests;
 			sourceTree = "<group>";
 		};
+		81D5E4402B7374BC008E0204 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				81D5E4472B737501008E0204 /* Landing */,
+				818638E72B709D08002E5350 /* Window */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		81D5E4472B737501008E0204 /* Landing */ = {
+			isa = PBXGroup;
+			children = (
+				81D5E4482B737501008E0204 /* Landing.h */,
+				81D5E4492B737501008E0204 /* Landing.docc */,
+			);
+			path = Landing;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -230,6 +297,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				818638F82B709D08002E5350 /* Window.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81D5E4412B737501008E0204 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81D5E4582B737502008E0204 /* Landing.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +324,7 @@
 			);
 			dependencies = (
 				818638FA2B709D08002E5350 /* PBXTargetDependency */,
+				81D5E45A2B737502008E0204 /* PBXTargetDependency */,
 			);
 			name = QuarChats;
 			productName = QuarChats;
@@ -328,6 +404,43 @@
 			productReference = 818638EF2B709D08002E5350 /* WindowTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		81D5E4452B737501008E0204 /* Landing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81D5E45D2B737502008E0204 /* Build configuration list for PBXNativeTarget "Landing" */;
+			buildPhases = (
+				81D5E4412B737501008E0204 /* Headers */,
+				81D5E4422B737501008E0204 /* Sources */,
+				81D5E4432B737501008E0204 /* Frameworks */,
+				81D5E4442B737501008E0204 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Landing;
+			productName = Landing;
+			productReference = 81D5E4462B737501008E0204 /* Landing.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		81D5E44E2B737501008E0204 /* LandingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81D5E4602B737502008E0204 /* Build configuration list for PBXNativeTarget "LandingTests" */;
+			buildPhases = (
+				81D5E44B2B737501008E0204 /* Sources */,
+				81D5E44C2B737501008E0204 /* Frameworks */,
+				81D5E44D2B737501008E0204 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81D5E4522B737501008E0204 /* PBXTargetDependency */,
+				81D5E4542B737502008E0204 /* PBXTargetDependency */,
+			);
+			name = LandingTests;
+			productName = LandingTests;
+			productReference = 81D5E44F2B737501008E0204 /* LandingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -356,6 +469,13 @@
 						CreatedOnToolsVersion = 15.2;
 						TestTargetID = 818638AD2B709C50002E5350;
 					};
+					81D5E4452B737501008E0204 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					81D5E44E2B737501008E0204 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 818638AD2B709C50002E5350;
+					};
 				};
 			};
 			buildConfigurationList = 818638A92B709C50002E5350 /* Build configuration list for PBXProject "QuarChats" */;
@@ -376,6 +496,8 @@
 				818638CD2B709C52002E5350 /* QuarChatsUITests */,
 				818638E52B709D08002E5350 /* Window */,
 				818638EE2B709D08002E5350 /* WindowTests */,
+				81D5E4452B737501008E0204 /* Landing */,
+				81D5E44E2B737501008E0204 /* LandingTests */,
 			);
 		};
 /* End PBXProject section */
@@ -413,6 +535,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		818638ED2B709D08002E5350 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81D5E4442B737501008E0204 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81D5E44D2B737501008E0204 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -469,6 +605,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		81D5E4422B737501008E0204 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81D5E44A2B737501008E0204 /* Landing.docc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81D5E44B2B737501008E0204 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -496,6 +647,21 @@
 			isa = PBXTargetDependency;
 			target = 818638E52B709D08002E5350 /* Window */;
 			targetProxy = 818638F92B709D08002E5350 /* PBXContainerItemProxy */;
+		};
+		81D5E4522B737501008E0204 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81D5E4452B737501008E0204 /* Landing */;
+			targetProxy = 81D5E4512B737501008E0204 /* PBXContainerItemProxy */;
+		};
+		81D5E4542B737502008E0204 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 818638AD2B709C50002E5350 /* QuarChats */;
+			targetProxy = 81D5E4532B737502008E0204 /* PBXContainerItemProxy */;
+		};
+		81D5E45A2B737502008E0204 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81D5E4452B737501008E0204 /* Landing */;
+			targetProxy = 81D5E4592B737502008E0204 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -874,6 +1040,108 @@
 			};
 			name = Release;
 		};
+		81D5E45E2B737502008E0204 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = N676ZFA7W8;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = quarang.Landing;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		81D5E45F2B737502008E0204 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = N676ZFA7W8;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = quarang.Landing;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		81D5E4612B737502008E0204 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N676ZFA7W8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = quarang.LandingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuarChats.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/QuarChats";
+			};
+			name = Debug;
+		};
+		81D5E4622B737502008E0204 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N676ZFA7W8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = quarang.LandingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuarChats.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/QuarChats";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -927,6 +1195,24 @@
 			buildConfigurations = (
 				818639022B709D08002E5350 /* Debug */,
 				818639032B709D08002E5350 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81D5E45D2B737502008E0204 /* Build configuration list for PBXNativeTarget "Landing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81D5E45E2B737502008E0204 /* Debug */,
+				81D5E45F2B737502008E0204 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81D5E4602B737502008E0204 /* Build configuration list for PBXNativeTarget "LandingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81D5E4612B737502008E0204 /* Debug */,
+				81D5E4622B737502008E0204 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
