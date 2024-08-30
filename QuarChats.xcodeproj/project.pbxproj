@@ -291,7 +291,7 @@
 		81D5E4402B7374BC008E0204 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				81D5E4732B7379F2008E0204 /* Utility */,
+				81D5E47E2B737A70008E0204 /* Shared */,
 				81D5E4472B737501008E0204 /* Landing */,
 				818638E72B709D08002E5350 /* Window */,
 			);
@@ -316,6 +316,14 @@
 				81D5E4742B7379F2008E0204 /* Utility.h */,
 			);
 			path = Utility;
+			sourceTree = "<group>";
+		};
+		81D5E47E2B737A70008E0204 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				81D5E4732B7379F2008E0204 /* Utility */,
+			);
+			path = Shared;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
