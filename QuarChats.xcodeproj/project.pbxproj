@@ -16,24 +16,12 @@
 		818638C92B709C52002E5350 /* QuarChatsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818638C82B709C52002E5350 /* QuarChatsTests.swift */; };
 		818638D32B709C52002E5350 /* QuarChatsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818638D22B709C52002E5350 /* QuarChatsUITests.swift */; };
 		818638D52B709C52002E5350 /* QuarChatsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818638D42B709C52002E5350 /* QuarChatsUITestsLaunchTests.swift */; };
-		818638EA2B709D08002E5350 /* Window.docc in Sources */ = {isa = PBXBuildFile; fileRef = 818638E92B709D08002E5350 /* Window.docc */; };
 		818638F02B709D08002E5350 /* Window.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 818638E62B709D08002E5350 /* Window.framework */; };
-		818638F82B709D08002E5350 /* Window.h in Headers */ = {isa = PBXBuildFile; fileRef = 818638E82B709D08002E5350 /* Window.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		818638FB2B709D08002E5350 /* Window.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 818638E62B709D08002E5350 /* Window.framework */; };
 		818638FC2B709D08002E5350 /* Window.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 818638E62B709D08002E5350 /* Window.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		818639052B70A0CB002E5350 /* Window.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818639042B70A0CB002E5350 /* Window.swift */; };
-		818639072B70A1A2002E5350 /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818639062B70A1A2002E5350 /* Presenter.swift */; };
-		818639092B70A21F002E5350 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818639082B70A21F002E5350 /* Router.swift */; };
-		8186390B2B70A280002E5350 /* Builder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8186390A2B70A280002E5350 /* Builder.swift */; };
-		81D5E44A2B737501008E0204 /* Landing.docc in Sources */ = {isa = PBXBuildFile; fileRef = 81D5E4492B737501008E0204 /* Landing.docc */; };
 		81D5E4502B737501008E0204 /* Landing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81D5E4462B737501008E0204 /* Landing.framework */; };
-		81D5E4582B737502008E0204 /* Landing.h in Headers */ = {isa = PBXBuildFile; fileRef = 81D5E4482B737501008E0204 /* Landing.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		81D5E45B2B737502008E0204 /* Landing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81D5E4462B737501008E0204 /* Landing.framework */; };
 		81D5E45C2B737502008E0204 /* Landing.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 81D5E4462B737501008E0204 /* Landing.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		81D5E4662B73775D008E0204 /* Landing.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81D5E4652B73775D008E0204 /* Landing.storyboard */; };
-		81D5E4682B737860008E0204 /* LandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D5E4672B737860008E0204 /* LandingViewController.swift */; };
-		81D5E46C2B737931008E0204 /* Builder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D5E46B2B737931008E0204 /* Builder.swift */; };
-		81D5E4752B7379F2008E0204 /* Utility.h in Headers */ = {isa = PBXBuildFile; fileRef = 81D5E4742B7379F2008E0204 /* Utility.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		81D5E4782B7379F2008E0204 /* Utility.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81D5E4722B7379F2008E0204 /* Utility.framework */; };
 		81D5E4792B7379F2008E0204 /* Utility.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 81D5E4722B7379F2008E0204 /* Utility.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
@@ -135,22 +123,10 @@
 		818638D22B709C52002E5350 /* QuarChatsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuarChatsUITests.swift; sourceTree = "<group>"; };
 		818638D42B709C52002E5350 /* QuarChatsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuarChatsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		818638E62B709D08002E5350 /* Window.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Window.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		818638E82B709D08002E5350 /* Window.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Window.h; sourceTree = "<group>"; };
-		818638E92B709D08002E5350 /* Window.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Window.docc; sourceTree = "<group>"; };
 		818638EF2B709D08002E5350 /* WindowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WindowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		818639042B70A0CB002E5350 /* Window.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Window.swift; sourceTree = "<group>"; };
-		818639062B70A1A2002E5350 /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
-		818639082B70A21F002E5350 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
-		8186390A2B70A280002E5350 /* Builder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Builder.swift; sourceTree = "<group>"; };
 		81D5E4462B737501008E0204 /* Landing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Landing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		81D5E4482B737501008E0204 /* Landing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Landing.h; sourceTree = "<group>"; };
-		81D5E4492B737501008E0204 /* Landing.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Landing.docc; sourceTree = "<group>"; };
 		81D5E44F2B737501008E0204 /* LandingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LandingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		81D5E4652B73775D008E0204 /* Landing.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Landing.storyboard; sourceTree = "<group>"; };
-		81D5E4672B737860008E0204 /* LandingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingViewController.swift; sourceTree = "<group>"; };
-		81D5E46B2B737931008E0204 /* Builder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Builder.swift; sourceTree = "<group>"; };
 		81D5E4722B7379F2008E0204 /* Utility.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Utility.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		81D5E4742B7379F2008E0204 /* Utility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -246,7 +222,6 @@
 		818638B02B709C50002E5350 /* QuarChats */ = {
 			isa = PBXGroup;
 			children = (
-				81D5E4402B7374BC008E0204 /* Modules */,
 				818638B12B709C50002E5350 /* AppDelegate.swift */,
 				818638B32B709C50002E5350 /* SceneDelegate.swift */,
 				818638B52B709C50002E5350 /* ViewController.swift */,
@@ -275,57 +250,6 @@
 			path = QuarChatsUITests;
 			sourceTree = "<group>";
 		};
-		818638E72B709D08002E5350 /* Window */ = {
-			isa = PBXGroup;
-			children = (
-				818638E82B709D08002E5350 /* Window.h */,
-				818638E92B709D08002E5350 /* Window.docc */,
-				818639042B70A0CB002E5350 /* Window.swift */,
-				818639062B70A1A2002E5350 /* Presenter.swift */,
-				818639082B70A21F002E5350 /* Router.swift */,
-				8186390A2B70A280002E5350 /* Builder.swift */,
-			);
-			path = Window;
-			sourceTree = "<group>";
-		};
-		81D5E4402B7374BC008E0204 /* Modules */ = {
-			isa = PBXGroup;
-			children = (
-				81D5E47E2B737A70008E0204 /* Shared */,
-				81D5E4472B737501008E0204 /* Landing */,
-				818638E72B709D08002E5350 /* Window */,
-			);
-			path = Modules;
-			sourceTree = "<group>";
-		};
-		81D5E4472B737501008E0204 /* Landing */ = {
-			isa = PBXGroup;
-			children = (
-				81D5E4482B737501008E0204 /* Landing.h */,
-				81D5E4492B737501008E0204 /* Landing.docc */,
-				81D5E4652B73775D008E0204 /* Landing.storyboard */,
-				81D5E4672B737860008E0204 /* LandingViewController.swift */,
-				81D5E46B2B737931008E0204 /* Builder.swift */,
-			);
-			path = Landing;
-			sourceTree = "<group>";
-		};
-		81D5E4732B7379F2008E0204 /* Utility */ = {
-			isa = PBXGroup;
-			children = (
-				81D5E4742B7379F2008E0204 /* Utility.h */,
-			);
-			path = Utility;
-			sourceTree = "<group>";
-		};
-		81D5E47E2B737A70008E0204 /* Shared */ = {
-			isa = PBXGroup;
-			children = (
-				81D5E4732B7379F2008E0204 /* Utility */,
-			);
-			path = Shared;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -333,7 +257,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				818638F82B709D08002E5350 /* Window.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,7 +264,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81D5E4582B737502008E0204 /* Landing.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,7 +271,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81D5E4752B7379F2008E0204 /* Utility.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -613,7 +534,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81D5E4662B73775D008E0204 /* Landing.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -665,11 +585,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				818639092B70A21F002E5350 /* Router.swift in Sources */,
-				818639072B70A1A2002E5350 /* Presenter.swift in Sources */,
-				818638EA2B709D08002E5350 /* Window.docc in Sources */,
-				818639052B70A0CB002E5350 /* Window.swift in Sources */,
-				8186390B2B70A280002E5350 /* Builder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -684,9 +599,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81D5E4682B737860008E0204 /* LandingViewController.swift in Sources */,
-				81D5E44A2B737501008E0204 /* Landing.docc in Sources */,
-				81D5E46C2B737931008E0204 /* Builder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -896,7 +808,6 @@
 		818638D92B709C52002E5350 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -925,7 +836,6 @@
 		818638DA2B709C52002E5350 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -1096,7 +1006,6 @@
 		818639022B709D08002E5350 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = N676ZFA7W8;
@@ -1114,7 +1023,6 @@
 		818639032B709D08002E5350 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = N676ZFA7W8;
@@ -1198,7 +1106,6 @@
 		81D5E4612B737502008E0204 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = N676ZFA7W8;
@@ -1216,7 +1123,6 @@
 		81D5E4622B737502008E0204 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = N676ZFA7W8;
