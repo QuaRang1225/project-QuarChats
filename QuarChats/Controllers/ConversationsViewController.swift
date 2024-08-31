@@ -22,8 +22,12 @@ class ConversationsViewController: UIViewController {
             let vc = LoginViewController()
             let nav = UINavigationController(rootViewController: vc)
             nav.modalPresentationStyle = .fullScreen
+            nav.navigationBar.isHidden = true
             present(nav,animated: true)
         }
     }
 }
 
+#Preview{
+    ConversationsViewController()
+}
